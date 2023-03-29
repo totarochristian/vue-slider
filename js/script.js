@@ -21,7 +21,7 @@ const app = createApp({
         {
           img: "2.jpg",
           title: "Montagne con nuvole",
-          text: "Osserva le nuvole attraversare le cime delle montagne più altre, alcuni monaci hanno raggiunto l'illuminazione in questo modo.",
+          text: "Osserva le nuvole attraversare le cime delle montagne più alte, alcuni monaci hanno raggiunto l'illuminazione in questo modo.",
           class: 'imgCont'
         },
         {
@@ -39,7 +39,7 @@ const app = createApp({
         {
           img: "5.jpg",
           title: "Vista da un monte",
-          text: "Chissa come dev'essere bello osservare la vallata dalla cima di un monte...",
+          text: "Chissà come dev'essere bello osservare la vallata dalla cima di un monte...",
           class: 'imgCont'
         },
         {
@@ -51,7 +51,7 @@ const app = createApp({
         {
           img: "7.jpg",
           title: "Costruzioni sulla sabbia",
-          text: "Il caldo metterà alla prova la tua resistenza ma se sarai ababstanza intrepido avrai l'occasione di esplorare luoghi molto lontani dal tuo cortile di casa.",
+          text: "Il caldo metterà alla prova la tua resistenza ma se sarai abbastanza intrepido avrai l'occasione di esplorare luoghi molto lontani dal tuo cortile di casa.",
           class: 'imgCont'
         },
         {
