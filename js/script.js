@@ -14,77 +14,92 @@ const app = createApp({
         {
           img: "1.jpg",
           title: "Lago tra i monti",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "2.jpg",
           title: "Montagne con nuvole",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "3.jpg",
           title: "Cascata tra i monti",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "4.jpg",
           title: "Montagne sul mare",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "5.jpg",
           title: "Vista da un monte",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "6.jpg",
           title: "Tramonto su una laguna",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "7.jpg",
           title: "Costruzioni sulla sabbia",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "8.jpg",
           title: "Che caldo che fa",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "9.jpg",
           title: "Immersione nel bosco",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "10.jpg",
           title: "Fiori in Primavera",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "11.jpg",
           title: "Un campanile allagato",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "12.jpg",
           title: "Palafitta tra i monti",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "13.jpg",
           title: "Borgo tra i monti",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "14.jpg",
           title: "Colori autunnali",
-          text: ""
+          text: "",
+          class: 'imgCont'
         },
         {
           img: "15.jpg",
           title: "Cavallo che si nutre tra i monti",
-          text: ""
+          text: "",
+          class: 'imgCont'
         }
       ]
     };
