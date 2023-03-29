@@ -15,91 +15,91 @@ const app = createApp({
         {
           img: "1.jpg",
           title: "Lago tra i monti",
-          text: "",
+          text: "Sperimenta la vita in riva ad un lago immerso tra i monti, ti sentirai immerso in una Natura travolgente!",
           class: 'imgCont'
         },
         {
           img: "2.jpg",
           title: "Montagne con nuvole",
-          text: "",
+          text: "Osserva le nuvole attraversare le cime delle montagne più altre, alcuni monaci hanno raggiunto l'illuminazione in questo modo.",
           class: 'imgCont'
         },
         {
           img: "3.jpg",
           title: "Cascata tra i monti",
-          text: "",
+          text: "Chi non vorrebbe farsi un bagno in una cascata? Rompi le catene mentali e tuffati!",
           class: 'imgCont'
         },
         {
           img: "4.jpg",
           title: "Montagne sul mare",
-          text: "",
+          text: "Andare al mare è un bel sogno ma è consigliabile aspettare l'estate prima di farlo.",
           class: 'imgCont'
         },
         {
           img: "5.jpg",
           title: "Vista da un monte",
-          text: "",
+          text: "Chissa come dev'essere bello osservare la vallata dalla cima di un monte...",
           class: 'imgCont'
         },
         {
           img: "6.jpg",
           title: "Tramonto su una laguna",
-          text: "",
+          text: "Il tramonto è un momento speciale per molte popolazioni del mondo, viverlo sulla propria pelle dev'essere speciale!",
           class: 'imgCont'
         },
         {
           img: "7.jpg",
           title: "Costruzioni sulla sabbia",
-          text: "",
+          text: "Il caldo metterà alla prova la tua resistenza ma se sarai ababstanza intrepido avrai l'occasione di esplorare luoghi molto lontani dal tuo cortile di casa.",
           class: 'imgCont'
         },
         {
           img: "8.jpg",
           title: "Che caldo che fa",
-          text: "",
+          text: "Sicuramente vederlo dal vivo dev'essere divertente... ma il caldo ne varrà la pena?",
           class: 'imgCont'
         },
         {
           img: "9.jpg",
           title: "Immersione nel bosco",
-          text: "",
+          text: "Chi non vorrebbe perdersi nel bosco e riscoprire se stesso?",
           class: 'imgCont'
         },
         {
           img: "10.jpg",
           title: "Fiori in Primavera",
-          text: "",
+          text: "Molti pagherebbero oro per potersi sdraiare in un campo di fiori... altri morirebbero per l'allergia.",
           class: 'imgCont'
         },
         {
           img: "11.jpg",
           title: "Un campanile allagato",
-          text: "",
+          text: "Sembra poetico un campanile che fuoriesce da un lago, ma chissà cosa ne pensa il prete che ci viveva...",
           class: 'imgCont'
         },
         {
           img: "12.jpg",
           title: "Palafitta tra i monti",
-          text: "",
+          text: "Forse non è proprio il luogo ideale per chi ha problemi alle ginocchia... l'umidità è uno dei nemici dell'Uomo!",
           class: 'imgCont'
         },
         {
           img: "13.jpg",
           title: "Borgo tra i monti",
-          text: "",
+          text: "Per i famosi lupi solitari vivere in un borgo del genere dev'essere spettacolare! Per i leoni da tastiera invece no.",
           class: 'imgCont'
         },
         {
           img: "14.jpg",
           title: "Colori autunnali",
-          text: "",
+          text: "Bello l'Autunno che avanza... ma chissaà i serpenti e i coccodrilli che vivono sul fondo del lago cosa ne pensano!",
           class: 'imgCont'
         },
         {
           img: "15.jpg",
           title: "Cavallo che si nutre tra i monti",
-          text: "",
+          text: "Se mantenere un cavallo non costasse un rene al mese, forse potrebbe essere interessante visitare un luogo del genere.",
           class: 'imgCont'
         }
       ]
