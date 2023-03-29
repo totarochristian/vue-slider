@@ -3,6 +3,7 @@ const app = createApp({
   data() {
     return {
       sliderTitle: '',
+      sliderText: '',
       sliderImage: '',
       sliderAlt: '',
       sliderCurrentIndex: 0,
@@ -112,6 +113,7 @@ const app = createApp({
     UpdateSlideShowed() {
         this.sliderImage = "./assets/img/" + this.sliderImages[this.sliderCurrentIndex].img;
         this.sliderTitle = this.sliderImages[this.sliderCurrentIndex].title;
+        this.sliderText = this.sliderImages[this.sliderCurrentIndex].text;
         this.sliderAlt = 'Tema della foto: ' + this.sliderImages[this.sliderCurrentIndex].title;
         this.UpdatePreviewSlideShowed();
     },
