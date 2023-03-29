@@ -59,8 +59,12 @@
 }
 .preview .imgCont{
     width: 100%;
-    /* height: calc(100% / 5); */
     filter: brightness(50%);
+}
+.preview .imgCont:hover{
+    border: 2px solid white;
+    filter: brightness(100%);
+    cursor: pointer;
 }
 .preview .imgCont img{
     width: 100%;
