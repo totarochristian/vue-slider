@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Hello</title>
+    <!-- Include custom css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Include vue library -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Include Fontawesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Define the container of the vue app -->
+    <div id="app" class="container">
+        <div id="carousel" class="carousel" @wheel="MouseWheelScroll" @mouseenter="StopAutoCarousel" @mouseleave="StartAutoCarousel">
+            <div class="slider">
+                <h1>{{ title }}</h1>
+                <img id="sliderImg" :src="sliderImage" :alt="sliderAlt">
+                <p id="sliderTitle">{{ sliderTitle }}</p>
+            </div>
+            <div class="preview">
+                <button id="btnPrev" @click="PrevSlide"><i class="fa-solid fa-circle-arrow-up"></i></button>
+                <button id="btnNext" @click="NextSlide"><i class="fa-solid fa-circle-arrow-down"></i></button>
+                <div v-for="(image, index) in sliderImages" :key="index" :id="'previewImg_' + index" :class="image.class" :style="'height: ' + (100 / sliderImages.length) + '%'">
+                    <img :src="'./assets/img/' + image.img" :alt="'Immagine' + index + 'della preview'">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include custom JS file -->
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>
