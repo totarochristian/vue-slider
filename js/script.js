@@ -2,96 +2,97 @@ const { createApp } = Vue;
 const app = createApp({
   data() {
     return {
-      title: "Paesaggi dal mondo",
       sliderTitle: '',
       sliderImage: '',
       sliderAlt: '',
       sliderCurrentIndex: 0,
       sliderPrevIndex: 0,
       intervalSlider: 0,
+      basicClassSlide: 'imgCont',
+      activeClassSlide: 'activeImage',
       sliderImages: [
         {
           img: "1.jpg",
           title: "Lago tra i monti",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "2.jpg",
           title: "Montagne con nuvole",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "3.jpg",
           title: "Cascata tra i monti",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "4.jpg",
           title: "Montagne sul mare",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "5.jpg",
           title: "Vista da un monte",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "6.jpg",
           title: "Tramonto su una laguna",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "7.jpg",
           title: "Costruzioni sulla sabbia",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "8.jpg",
           title: "Che caldo che fa",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "9.jpg",
           title: "Immersione nel bosco",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "10.jpg",
           title: "Fiori in Primavera",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "11.jpg",
           title: "Un campanile allagato",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "12.jpg",
           title: "Palafitta tra i monti",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "13.jpg",
           title: "Borgo tra i monti",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "14.jpg",
           title: "Colori autunnali",
-          class: 'imgCont'
+          text: ""
         },
         {
           img: "15.jpg",
           title: "Cavallo che si nutre tra i monti",
-          class: 'imgCont'
+          text: ""
         }
       ]
     };
   },
   methods: {
     UpdatePreviewSlideShowed() {
-      this.sliderImages[this.sliderPrevIndex].class = "imgCont";
-      this.sliderImages[this.sliderCurrentIndex].class = "imgCont activeImage";
+      this.sliderImages[this.sliderPrevIndex].class = this.basicClassSlide;
+      this.sliderImages[this.sliderCurrentIndex].class = this.basicClassSlide+" "+this.activeClassSlide;
     },
     UpdateSlideShowed() {
         this.sliderImage = "./assets/img/" + this.sliderImages[this.sliderCurrentIndex].img;
