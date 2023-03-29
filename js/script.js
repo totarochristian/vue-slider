@@ -118,17 +118,16 @@ const app = createApp({
         this.UpdatePreviewSlideShowed();
     },
     PrevSlide() {
-      this.sliderPrevIndex = this.sliderCurrentIndex;
-      if (this.sliderCurrentIndex > 0) this.sliderCurrentIndex--;
-      else this.sliderCurrentIndex = this.sliderImages.length - 1;
-      this.UpdateSlideShowed();
+      let index = this.sliderCurrentIndex;
+      if (index > 0) index--;
+      else index = this.sliderImages.length - 1;
+      this.OpenSlide(index);
     },
     NextSlide() {
-      this.sliderPrevIndex = this.sliderCurrentIndex;
-      if (this.sliderCurrentIndex < this.sliderImages.length - 1)
-        this.sliderCurrentIndex++;
-      else this.sliderCurrentIndex = 0;
-      this.UpdateSlideShowed();
+      let index = this.sliderCurrentIndex;
+      if (index < this.sliderImages.length - 1) index++;
+      else index = 0;
+      this.OpenSlide(index);
     },
     MouseWheelScroll(event) {
       const delta = Math.sign(event.deltaY);
@@ -140,6 +139,11 @@ const app = createApp({
     },
     StopAutoCarousel() {
       clearInterval(this.intervalSlider);
+    },
+    OpenSlide(index){
+      this.sliderPrevIndex = this.sliderCurrentIndex;
+      this.sliderCurrentIndex = index;
+      this.UpdateSlideShowed();
     }
   },
   created(){
